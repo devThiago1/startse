@@ -63,8 +63,9 @@ body.gradient{
 
 
 #principal a.describe{
-    display:inline-block;
-    padding: 10px 30px;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
     color:#DDA0DD;
     background-color: transparent;
     border:2px solid #DDA0DD;
