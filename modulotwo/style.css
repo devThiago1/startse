@@ -19,7 +19,7 @@ img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    opacity: 70%;
+    opacity: 30%;
 }
 p {
     font-size: 1.4rem;
@@ -78,7 +78,7 @@ p {
     color: white;
     background-color: transparent;
     border-radius: 5px;
-    border: 2px solid #6495ED;
+    border: 5px solid #6495ED;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -122,35 +122,35 @@ p {
     z-index: -1;
 }
 
-/* Seção de Portifólio */
+/* Seção de INFO */
 
-#portfolio .portfolio{
+#info .info-container{
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
-#portfolio .portfolio-header h1{
+#info .info-header h1{
     margin-bottom: 50px;
 }
-#portfolio .all-projects {
+#info .all-projects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#portfolio .project-item{
+#info .project-item{
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
-#portfolio .project-info {
+#info .project-info1{
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
@@ -158,37 +158,64 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #5a10b5 0%, #002349 100%);
+    background-image: url(./bandeira\ romena.jpg);
     color: white;
 }
 
-#portfolio .project-info h1{
-    font-size: 4rem;
+#info .project-info2{
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./bandeira\ colombia.jpg);
+    color: white;
+}
+
+#info .project-info3{
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./dsadsa.jpg);
+    color: white;
+}
+
+#info .project-info1 h1{
+    font-size: 6rem;
+    font-weight: 500;
+}
+#info .project-info2 h1{
+    font-size: 6rem;
+    font-weight: 500;
+}
+#info .project-info3 h1{
+    font-size: 6rem;
     font-weight: 500;
 }
 
-#portfolio .project-info h2{
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 10px;
-}
 
-#portfolio .project-img {
+
+#info .project-img1 {
     flex-basis: 50%;
     height: 300px;
-    overflow: hidden;
+    opacity: 100%;
     position: relative;
 }
 
-#portfolio .project-img:after {
+#info .project-img:after {
     content: '';
     position: absolute;
     left: 0;
     top:0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: 0.7;
+    background-image:
 }
 #portfolio .project-img img{
     transition: 0.5s ease transform;
