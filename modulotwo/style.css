@@ -192,11 +192,11 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./dsadsa.jpg);
+    background-image: url(bandeirabrasil.jpg);
     color: white;
 }
-#infor .project-info3{
-    margin-left: 400px;
+#info .project-info3 h1{
+    margin-left: 40%;
 }
 
 #info .project-info1 h1{
