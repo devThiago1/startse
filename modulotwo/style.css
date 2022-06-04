@@ -51,7 +51,7 @@ p {
 /* Seção de apresentação */
 
 #presentation{
-    background-image: url(./riowallpaper.jpg);
+    background-image: url(img/riowallpaper.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -123,6 +123,10 @@ p {
 
 /* Seção de INFO */
 
+#info{
+    background-color:#F5F5F5 ;
+}
+
 #info .info-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -162,9 +166,10 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./bandeira\ romena.jpg);
+    background-image: url(img/bandeira\ romena.jpg);
     color: white;
 }
+
 #info .project-info1 h1{
     margin-left: 35%;
 }
@@ -177,7 +182,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./bandeira\ colombia.jpg);
+    background-image: url(img/bandeira\ colombia.jpg);
     color: white;
 }
 #info .project-info2 h1{
@@ -192,7 +197,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: url(bandeirabrasil.jpg);
+    background-image: url(img/bandeirabrasil.jpg);
     color: white;
 }
 #info .project-info3 h1{
@@ -232,9 +237,19 @@ p {
 #info .btn-about{
     margin-left: 0%;
     font-size: 3rem;
-    border: 5px solid ;
+    margin-top: 10px;
+    border: 6px solid #8A2BE2;
+    border-radius: 80px;
+    padding: 10px;
+    color: #FF00FF;
 }
 
+#info .btn-about:hover{
+    transition: .5s ease;
+    color: #FF00FF;
+    font-weight: 500;
+    background-color: #8A2BE2;
+}
 
 
 /* Keyframes */
